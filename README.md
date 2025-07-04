@@ -50,7 +50,12 @@ build_exe.bat
 
 The executable will be created in the `dist/` folder as `QuranCalculator.exe` (approximately 35-40 MB).
 
-**Note:** PyInstaller creates platform-specific executables. A Linux build will NOT work on Windows, even if renamed to `.exe`. See [WINDOWS_BUILD_GUIDE.md](WINDOWS_BUILD_GUIDE.md) for detailed instructions.
+**Note:** PyInstaller creates platform-specific executables. A Linux build will NOT work on Windows, even if renamed to `.exe`. 
+
+**📚 Guides:**
+- [WINDOWS_BUILD_GUIDE.md](WINDOWS_BUILD_GUIDE.md) - How to build on Windows
+- [WINDOWS_TROUBLESHOOTING.md](WINDOWS_TROUBLESHOOTING.md) - Fix issues when exe won't run
+- [LINUX_USAGE_GUIDE.md](LINUX_USAGE_GUIDE.md) - Running on Linux
 
 #### Build Requirements
 - Python 3.7+ with pip
